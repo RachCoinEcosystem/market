@@ -3,17 +3,18 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{html,js}',
   ],
   theme: {
     extend: {
       colors: {
         "green": "#39DB4A",
-        "Red": "#FF6868",
-        "primaryBG": "#FCFCFC",
-        "secondary": "#555"
+        "red": "#FF6868",
+        "secondary": "#555",
+        "prigmayBG": "#FCFCFC",
+        "yellow": "#ffd700"
       }
     },
   },
-  plugins: [require('daisyui'),],
+  plugins: [require("daisyui")],
 }
-

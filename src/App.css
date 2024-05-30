@@ -9,7 +9,7 @@ header, nav{
 }
 
 .subtitle{
-  @apply text-red-700 uppercase tracking-wide font-semibold text-lg;
+  @apply text-red uppercase tracking-wide font-semibold text-lg;
 }
 
 .title{
@@ -52,7 +52,7 @@ header, nav{
 }
 
 .footer-title{
-  color: rgb(10, 191, 31) !important;
+  color: black !important;
 }
 
 .active{
